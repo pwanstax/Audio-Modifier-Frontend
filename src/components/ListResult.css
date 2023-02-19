@@ -1,0 +1,20 @@
+.Header-result label {
+  width: 300px;
+  text-align: center;
+}
+
+.List-result {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  align-items: center;
+}
+
+.Container-result {
+  width: 300px;
+}
+
+.Container-result div {
+  display: flex;
+  justify-content: center;
+}

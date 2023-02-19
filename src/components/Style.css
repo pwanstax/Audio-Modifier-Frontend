@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500&display=swap");
+
+* {
+  font-family: "Mitr", sans-serif;
+}
+
+.Title {
+  font-size: 128px;
+  font-weight: 500;
+  text-shadow: 8px 8px 8px #b1b1b1;
+  color: #2a4a55;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Header-one {
+  font-size: 72px;
+  font-weight: 500;
+  text-shadow: 4px 4px 4px #fbe8ae;
+  color: #ffa101;
+}
+
+.Header-two {
+  font-size: 48px;
+  font-weight: 400;
+  text-shadow: 4px 4px 4px #b1b1b1;
+  color: #2a4a55;
+}
+
+.Main-header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.Body {
+  font-size: 24px;
+  font-weight: 400;
+  color: #2a4a55;
+}
+
+.Body-light {
+  font-size: 24px;
+  font-weight: 300;
+  color: #2a4a55;
+}
+
+.Error {
+  color: #b40a2e;
+  font-size: 18;
+  font-weight: 300;
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.Button-one {
+  width: 220px;
+  height: 72px;
+  font-size: 24px;
+  background-color: #b3dee5;
+  color: #2a4a55;
+  border-radius: 15px;
+  box-shadow: 0px 6px 6px #b1b1b1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Button-one:hover {
+  font-weight: 500;
+  background-color: #2a4a55;
+  color: #9cdfea;
+}
+
+.Button-one:active {
+  background-color: #2a4a55;
+  color: #9cdfea;
+  box-shadow: 0px 2px 2px #b1b1b1;
+  transform: translateY(4px);
+}
+
+.Flex {
+  display: flex;
+  justify-content: center;
+  /* padding-right: 20px; */
+}
+
+.Block {
+  display: block;
+}
+
+.Button-group {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  margin-bottom: 40px;
+  height: 72px;
+}
+
+.Popup {
+  background-color: white;
+  width: 600px;
+  border-radius: 15px;
+  border: 1px solid #2a4a55;
+  box-shadow: 0px 0px 100px #757575;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.Popup-header {
+  text-align: center;
+  height: 80px;
+  border-bottom: 1px solid #2a4a55;
+}
+
+.Popup-body {
+  line-height: 2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Button-cancel {
+  width: 220px;
+  height: 72px;
+  font-size: 24px;
+  border: none;
+  color: #2a4a55;
+  border-radius: 15px;
+  box-shadow: 0px 6px 6px #b1b1b1;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Button-cancel:hover {
+  font-weight: 500;
+  background-color: #2a4a55;
+  color: #9cdfea;
+}
+
+.Button-cancel:active {
+  background-color: #2a4a55;
+  color: #9cdfea;
+  box-shadow: 0px 2px 2px #b1b1b1;
+  transform: translateY(4px);
+}

@@ -1,0 +1,12 @@
+.List-upload {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  align-items: center;
+}
+
+.List-upload span {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2a4a55;
+}

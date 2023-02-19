@@ -1,0 +1,47 @@
+img.stepLogo {
+  width: 240px;
+  height: 240px;
+  margin-right: 20px;
+}
+
+img.stepImage {
+  margin-top: 20px;
+  width: 720px;
+  box-shadow: 0px 12px 12px #b1b1b1;
+  margin-left: 40px;
+}
+
+.bigBox {
+  display: block;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+
+.stepBox {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.stepFrame {
+  margin-left: 92px;
+}
+
+.stepBody {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.stepDetail1 {
+  margin-left: 72px;
+  text-align: left;
+}
+
+.stepDetail2 {
+  margin-left: 90px;
+  text-align: left;
+}
+
+.stepBodyLight {
+  text-align: left;
+  margin-left: 36px;
+}

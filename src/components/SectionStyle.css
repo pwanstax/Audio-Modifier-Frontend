@@ -1,0 +1,41 @@
+.Table {
+  display: block;
+  width: 1200px;
+  margin-bottom: 40px;
+}
+
+.Table-header {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.Table-header div {
+  width: 600px;
+}
+
+.Table-header div:first-child {
+  text-align: left;
+}
+
+.List {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.List-file {
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.List-file div {
+  min-height: 50px;
+}
+
+.List-file .Body-light {
+  display: flex;
+}
+
+.List-file .Body-light div {
+  width: 600px;
+}

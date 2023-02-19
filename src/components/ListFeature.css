@@ -1,0 +1,47 @@
+.List-feature {
+  display: flex;
+  width: 600px;
+  align-items: center;
+}
+
+.List-feature label {
+  width: 300px;
+}
+
+.Container-feature input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.Container-feature {
+  display: flex;
+  justify-content: center;
+}
+
+.Checkbox-feature {
+  position: relative;
+  top: 16px;
+  height: 36px;
+  width: 36px;
+  background-color: #b3dee5;
+  border: 1px solid #2a4a55;
+  font-size: 42px;
+  color: #2a4a55;
+}
+
+.Container-feature input:checked ~ .Checkbox-feature:after {
+  display: block;
+  position: relative;
+  content: "✓";
+  top: -14px;
+}
+
+.Container-feature:hover input:enabled ~ span {
+  border-width: 2px;
+  cursor: pointer;
+}
+
+.Container-feature .Checkbox-feature ~ span {
+  padding-left: 10px;
+}

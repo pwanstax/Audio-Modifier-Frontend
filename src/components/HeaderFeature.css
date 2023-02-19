@@ -1,0 +1,45 @@
+.Header-feature {
+  width: 50%;
+  align-items: center;
+}
+
+.Container-header-feature input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.Container-header-feature {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.Checkbox-header-feature {
+  position: relative;
+  top: 16px;
+  height: 40px;
+  width: 40px;
+  background-color: #b3dee5;
+  border: 1px solid #2a4a55;
+}
+
+.Container-header-feature input:checked ~ .Checkbox-header-feature:after {
+  display: block;
+  position: relative;
+  content: "✓";
+  top: -16px;
+}
+
+.Container-header-feature:hover input:enabled ~ span {
+  border-width: 2px;
+  cursor: pointer;
+  position: relative;
+  content: "✓";
+}
+
+.Container-header-feature .Checkbox-header-feature ~ span {
+  padding-left: 10px;
+  position: relative;
+  content: "✓";
+}
